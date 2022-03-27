@@ -242,14 +242,3 @@ border: 2px solid white;
         background-position: 0% 50%;
     }
 }
-#animation {
-    width: 20px;
-    height: 20px;
-    background: red;
-    transition: width 8s;
-    transition-timing-function: linear;
-  }
-  
-#animation:hover {
-    width: 2000px;
-  }
