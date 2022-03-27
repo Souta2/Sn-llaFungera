@@ -139,3 +139,8 @@ border: 2px solid white;
     flex-direction: column-reverse;
 
 }
+#bild8 {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
