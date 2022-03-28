@@ -67,6 +67,7 @@ margin-right: auto;
     padding: 30px;
     border: 2px solid white;
     margin: 20px;
+    border-radius: 15px;
 }
 .shonen-text {
     margin: 25px;
@@ -86,6 +87,7 @@ color: white;
 align-items: center;
 margin: 50px;
 border: 2px solid white;
+border-radius: 15px;
 
 }
 .titles {
@@ -110,6 +112,7 @@ border: 2px solid white;
     font-size: 16px;
     border: 2px groove black;
     cursor: pointer;
+    border-radius: 15px;
   }
   
   .dropbtn:hover, .dropbtn:focus {
@@ -130,6 +133,7 @@ border: 2px solid white;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     border: groove black;
+    border-radius: 15px;
   }
   
   .dropdown-content a {
@@ -150,6 +154,7 @@ border: 2px solid white;
 .titles-over {
     display: flex;
     flex-direction: column-reverse;
+    align-items: center;
 
 }
 #bild8 {
@@ -159,18 +164,23 @@ border: 2px solid white;
 }
 .first-picture {
     border: 8px inset white;
+    border-radius: 15px;
 }
 #first-picture1 {
     border: 8px inset pink;
+    border-radius: 15px;
 }
 #first-picture2 {
     border: 8px inset cyan;
+    border-radius: 15px;
 }
 #first-picture4 {
     border: 8px inset firebrick;
+    border-radius: 15px;
 }
 #first-picture9 {
     border: 8px double blueviolet;
+    border-radius: 15px;
 }
 
 
@@ -259,7 +269,59 @@ border: 2px solid white;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size:60px;
     text-align: center;
-     
+    border-radius: 15px;
     letter-spacing: 2px;
 }
- 
+
+.isekai-source {
+    color:orange;
+}
+.shonen-source {
+color:yellow;
+}
+
+.kalla-1 {
+    display: flex;
+    flex-direction: row;
+color: white;
+font-family: "Times New Roman", Times, serif;
+flex-direction: column;
+text-align: center;
+   
+}
+.ks {
+    color: white;
+    font-style: italic;
+}
+.sources {
+    font-size: 25px;
+    margin: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: Copperplate, fantasy;
+}
+.link-sources {
+    color: orange;
+}
+.link-sources {
+    color: blue;
+}
+.slice-source {
+    color:lightgreen;
+    }
+.margin_pics {
+    margin: 20px;
+    border: 6px inset cyan;
+    border-radius: 15px;
+}
+.margin_pics2 {
+    margin: 20px;
+    border: 6px inset pink;
+    border-radius: 15px;
+}
+.margin_pics3 {
+    margin: 20px;
+    border: 6px inset red;
+    border-radius: 15px;
+}
