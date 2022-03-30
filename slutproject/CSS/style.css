@@ -355,5 +355,82 @@ text-align: center;
         display: flex; 
         flex-direction: column;
         align-items: center;
+        width: 100%;
+    }
+    .first-picture {
+        border: 8px inset white;
+        border-radius: 15px;
+        width: 100%;
+    }
+    #bild8 {
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .widths_media {
+        width: 100%;
+    }
+    #c1 {
+        width: 100%;
+        margin: auto;
+        color: white; 
+    }
+    #text1 {  
+        width: 100%;
+        margin: auto;
+        color: white;
+    }
+    #link-1 {
+        background-color:green;
+        background-image: radial-gradient( circle, rgba(  0, 0, 0, 0 ) 0%, rgba( 0, 0, 0, 0.8 ) 100% );
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        font-family: Copperplate, fantasy;
+    }
+    .fyra {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .tre {
+        display: flex;
+        flex-direction: column;
+    color: white;
+    align-items: center;
+    margin: 0%;
+    border: 2px solid white;
+    border-radius: 15px;
+    width: 100%;
+    
+    }
+    .margin_pics {
+        margin: 20px;
+        border: 6px inset cyan;
+        border-radius: 15px;
+        width: 100%;
+
+    }
+    .slime-text {
+        width: 100%;
+        margin: 50px;
+    }
+    .kalla-1 {
+        display: flex;
+        flex-direction: row;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    flex-direction: column;
+    text-align: center;
+     width: 100%;  
+    }
+    #t1 {
+        font-size: 140px;
+        margin: 40px 40px 30px 40px;
+        color: white;
+        width: 100%;
     }
 }
