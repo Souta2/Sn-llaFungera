@@ -184,7 +184,6 @@ border-radius: 15px;
 }
 
 
-
 #link-1 {
     background: linear-gradient(-45deg, #00008B, #006400,#0000FF, #00FFFF);
     background-size: 400% 400%;
@@ -326,10 +325,10 @@ text-align: center;
     border-radius: 15px;
 }
 
- @media screen and (max-width:   500px) {
+ @media screen and (max-width: 500px) {
     #clockDisplay{
         margin:30px auto;
-        width: 200px;
+        width: 60%;
         animation: gradient 15s ease infinite;
         border: 5px inset #ededee;
         box-shadow: 0 20px 30px rgba(0,0,0,0.2);
@@ -355,7 +354,7 @@ text-align: center;
         display: flex; 
         flex-direction: column;
         align-items: center;
-        width: 100%;
+       width: 100%;
     }
     .first-picture {
         border: 8px inset white;
@@ -370,6 +369,9 @@ text-align: center;
     }
     .widths_media {
         width: 100%;
+    }
+    .widths_media2 {
+        width: 80%;
     }
     #c1 {
         width: 100%;
@@ -412,7 +414,6 @@ text-align: center;
     }
     .kalla-1 {
         display: flex;
-        flex-direction: row;
     color: white;
     font-family: "Times New Roman", Times, serif;
     flex-direction: column;
@@ -420,7 +421,7 @@ text-align: center;
      width: 100%;  
     }
     #t1 {
-        font-size: 500%;
+        font-size: 200%;
         margin: 40px 40px 30px 40px;
         color: white;
     max-width: 100%;
@@ -458,8 +459,7 @@ text-align: center;
         flex-direction: column;  
        max-width: 100%;
         align-items: center;
-        margin:none;
-        padding: none;
+        margin: 70px;
         }
 
         .img-column {
@@ -471,7 +471,19 @@ text-align: center;
             align-items: center;
             width: 100%;
             padding: 20%;
+
+        }
+        .img-column2 {
+            display: flex;
+            flex-direction: column;
+            color: white;  
+            border: 4px double yellow;
+            margin: 10%;
+            align-items: center;
+            width: 100%;
+            padding: 20%;
             justify-content: center;
+            border-radius: 15px;
         }
 
         /*display: flex;
@@ -506,8 +518,194 @@ text-align: center;
         align-items: center;
         width: 100%;
         }
-
+        .margin_pics2 {
+            margin: 20px;
+            border: 6px inset pink;
+            border-radius: 15px;
+            width: 80%;
+        }
+        .titles-over {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            width: 100%;       
+        }
+        .titles-2 {
+            font-size: 30px;
+            margin: 50px;
+            max-width: 100%;
+        }
+        .margin_pics {
+            margin: 20px;
+            border: 6px inset cyan;
+            border-radius: 15px;
+            width: 80%;
+        }
+        .titles {
+            font-size: 30px;
+            max-width: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .media_columns {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 100%;
+        }
 }
+@media screen and (max-width: 720px) and (min-width: 501px) {
+    #clockDisplay{
+        margin:30px auto;
+        width: 200px;
+        animation: gradient 15s ease infinite;
+        border: 5px inset #ededee;
+        box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+        padding: 6px;
+          height: 50px;
+          padding-top: 30px;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size:20px;
+        text-align: center;
+        border-radius: 15px;
+        letter-spacing: 2px;
+    }
+    body{
+     background: linear-gradient(to bottom, #7927b2, #fb3182);
+     font-family: Copperplate, fantasy;
+      }
+      #link-3 {
+        background: linear-gradient(to bottom, brown, rgba(255, 217, 0, 0.493));
+        font-family: Copperplate, fantasy;
+    }
+    #bild1 {
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .first-picture {
+        border: 8px inset white;
+        border-radius: 15px;
+        width: 100%;
+    }
+    #bild8 {
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .widths_media {
+        width: 100%;
+    }
+    #c1 {
+        width: 100%;
+        margin: auto;
+        color: white; 
+    }
+    #text1 {  
+        width: 100%;
+        margin: auto;
+        color: white;
+    }
+    #link-1 {
+        background: linear-gradient(to bottom, green, blue);
+        font-family: Copperplate, fantasy;
+    }
+    .fyra {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        max-width: 100%;
+    }
+    .tre {
+        display: flex;
+        flex-direction: column;
+    color: white;
+    align-items: center;
+    margin: 0%;
+    border: 2px solid white;
+    border-radius: 15px;
+    width: 100%;   
+    }
+    .slime-text {
+        width: 100%;
+        margin: 50px;
+    }
+    .kalla-1 {
+        display: flex;
+        flex-direction: row;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    flex-direction: column;
+    text-align: center;
+     width: 100%;  
+    }
+    #t1 {
+        font-size: 500%;
+        margin: 40px 40px 30px 40px;
+        color: white;
+    max-width: 100%;
+    }
+    #first-picture1 {
+        border: 8px inset pink;
+        border-radius: 15px;
+        width: 100%;
+    }
+    #link-2 {
+        background: linear-gradient(to bottom, black, red);
+        font-family: Copperplate, fantasy;
+    }
+    #first-picture4 {
+        border: 8px inset yellow;
+        border-radius: 15px;
+        width: 100%;
+    }
+    #flexbox-2 {
+        display: flex;
+        flex-direction: column;  
+       max-width: 100%;
+        align-items: center;
+        margin: 70px;
+    
+        }
 
+        .img-column {
+            display: flex;
+            flex-direction: column;
+            color: white;  
+            border: 4px double yellow;
+            margin: 10%;
+            align-items: center;
+            width: 80%;
+            padding: 20%;
+        }
+        
 
-
+        .margin_pics3 {
+            margin: 20px;
+            border: 6px inset red;
+            border-radius: 15px;
+            width: 100%;
+        }
+        .titles-2 {
+            font-size: 30px;
+            margin: 50px;
+        }
+        .slime-text {
+            width: 90%;
+            margin: 50px;
+        }
+        .shonen-text {
+            margin: 25px;
+            display: flex;
+            flex-direction: row;
+        align-items: center;
+        width: 100%;
+        }
+        #link-4 {
+            background: linear-gradient(to bottom, purple, grey);
+            font-family: Copperplate, fantasy;
+}
+}
