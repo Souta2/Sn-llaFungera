@@ -369,9 +369,14 @@ text-align: center;
     }
     .widths_media {
         width: 100%;
+        height: auto;
     }
     .widths_media2 {
         width: 80%;
+        height: auto;
+    }
+    img {
+        height: auto;
     }
     #c1 {
         width: 100%;
