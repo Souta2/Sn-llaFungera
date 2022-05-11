@@ -35,7 +35,7 @@
             h = 12;
           }else if(h > 12){
             h = h - 12;
-            diem = "PM"
+            diem = "PM";
           }
           if(h < 10){
             h = "0" + h;
